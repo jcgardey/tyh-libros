@@ -13,6 +13,7 @@ class Cliente {
     return this._credito;
   }
   recargarCredito(monto) {
+    // recarga de credito
     this._credito = this._credito + monto + this._tipo.bonificarRecarga(monto);
   }
 
