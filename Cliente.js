@@ -14,6 +14,7 @@ class Cliente {
   }
   recargarCredito(monto) {
     // recarga de credito
+    console.log('en rama master');
     this._credito = this._credito + monto + this._tipo.bonificarRecarga(monto);
   }
 
